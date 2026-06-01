@@ -1,0 +1,184 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Runtime environment is responsible for:",
+      "options": ["Program execution support", "Compilation only", "Linking only", "Parsing only"],
+      "answer": "Program execution support"
+    },
+    {
+      "id": 2,
+      "question": "Runtime environment mainly manages:",
+      "options": ["Memory and control flow", "Syntax analysis", "Lexical analysis", "Parsing"],
+      "answer": "Memory and control flow"
+    },
+    {
+      "id": 3,
+      "question": "Activation record is also called:",
+      "options": ["Parse tree", "Stack frame", "Token", "Lexeme"],
+      "answer": "Stack frame"
+    },
+    {
+      "id": 4,
+      "question": "Activation records are stored in:",
+      "options": ["Heap", "Stack", "Register only", "Cache"],
+      "answer": "Stack"
+    },
+    {
+      "id": 5,
+      "question": "Stack allocation is suitable for:",
+      "options": ["Static memory allocation", "Procedure calls", "Dynamic graphs", "Linked lists only"],
+      "answer": "Procedure calls"
+    },
+    {
+      "id": 6,
+      "question": "Heap allocation supports:",
+      "options": ["Dynamic memory allocation", "Static variables only", "Local variables only", "Parsing"],
+      "answer": "Dynamic memory allocation"
+    },
+    {
+      "id": 7,
+      "question": "Memory allocated from heap remains until:",
+      "options": ["Function returns", "Explicit deallocation", "Parsing completes", "Compilation ends"],
+      "answer": "Explicit deallocation"
+    },
+    {
+      "id": 8,
+      "question": "Local variables are usually stored in:",
+      "options": ["Heap", "Stack", "ROM", "Disk"],
+      "answer": "Stack"
+    },
+    {
+      "id": 9,
+      "question": "Dynamic data structures are generally stored in:",
+      "options": ["Stack", "Heap", "Register", "Cache"],
+      "answer": "Heap"
+    },
+    {
+      "id": 10,
+      "question": "Procedure calls use:",
+      "options": ["Activation records", "Tokens", "Parse trees", "Lexemes"],
+      "answer": "Activation records"
+    },
+    {
+      "id": 11,
+      "question": "Return address is stored in:",
+      "options": ["Activation record", "Symbol table", "Parse tree", "Heap only"],
+      "answer": "Activation record"
+    },
+    {
+      "id": 12,
+      "question": "Stack allocation follows:",
+      "options": ["FIFO", "LIFO", "Random", "Circular"],
+      "answer": "LIFO"
+    },
+    {
+      "id": 13,
+      "question": "Heap allocation follows:",
+      "options": ["LIFO strictly", "FIFO strictly", "No fixed order", "Circular order"],
+      "answer": "No fixed order"
+    },
+    {
+      "id": 14,
+      "question": "Static allocation is done:",
+      "options": ["During execution", "At compile time", "During linking", "During loading only"],
+      "answer": "At compile time"
+    },
+    {
+      "id": 15,
+      "question": "Static variables are stored in:",
+      "options": ["Static area", "Heap", "Stack only", "Cache"],
+      "answer": "Static area"
+    },
+    {
+      "id": 16,
+      "question": "Runtime stack grows and shrinks during:",
+      "options": ["Program execution", "Compilation", "Parsing", "Linking"],
+      "answer": "Program execution"
+    },
+    {
+      "id": 17,
+      "question": "Which allocation supports recursion?",
+      "options": ["Static allocation", "Stack allocation", "Register allocation", "ROM allocation"],
+      "answer": "Stack allocation"
+    },
+    {
+      "id": 18,
+      "question": "Heap allocation is required for:",
+      "options": ["Dynamic arrays", "Constants only", "Tokens only", "Grammar rules"],
+      "answer": "Dynamic arrays"
+    },
+    {
+      "id": 19,
+      "question": "Runtime environment handles:",
+      "options": ["Parameter passing", "Lexical analysis", "Parsing", "Code optimization only"],
+      "answer": "Parameter passing"
+    },
+    {
+      "id": 20,
+      "question": "Activation record contains:",
+      "options": ["Return address", "Local variables", "Parameters", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 21,
+      "question": "Stack pointer points to:",
+      "options": ["Top of stack", "Bottom of heap", "Code segment", "Data segment"],
+      "answer": "Top of stack"
+    },
+    {
+      "id": 22,
+      "question": "Heap memory is used for:",
+      "options": ["Dynamic objects", "Parse trees only", "Tokens only", "Registers"],
+      "answer": "Dynamic objects"
+    },
+    {
+      "id": 23,
+      "question": "Memory allocation during execution is called:",
+      "options": ["Dynamic allocation", "Static allocation", "Lexical allocation", "Syntax allocation"],
+      "answer": "Dynamic allocation"
+    },
+    {
+      "id": 24,
+      "question": "Recursion requires:",
+      "options": ["Heap only", "Stack allocation", "Static allocation only", "Cache memory"],
+      "answer": "Stack allocation"
+    },
+    {
+      "id": 25,
+      "question": "Runtime environment is part of:",
+      "options": ["Program execution system", "Lexical analyzer", "Parser", "Grammar"],
+      "answer": "Program execution system"
+    },
+    {
+      "id": 26,
+      "question": "Which memory area stores activation records?",
+      "options": ["Stack", "Heap", "Code segment", "Static area"],
+      "answer": "Stack"
+    },
+    {
+      "id": 27,
+      "question": "Which allocation is fastest?",
+      "options": ["Stack allocation", "Heap allocation", "Disk allocation", "Dynamic allocation"],
+      "answer": "Stack allocation"
+    },
+    {
+      "id": 28,
+      "question": "Heap memory fragmentation occurs in:",
+      "options": ["Static allocation", "Heap allocation", "Stack allocation", "Register allocation"],
+      "answer": "Heap allocation"
+    },
+    {
+      "id": 29,
+      "question": "Runtime support includes:",
+      "options": ["Memory management", "Procedure linkage", "Parameter passing", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 30,
+      "question": "The runtime environment is created for:",
+      "options": ["Executing the program", "Parsing the program", "Scanning the program", "Optimizing the program"],
+      "answer": "Executing the program"
+    }
+  ]
+}
