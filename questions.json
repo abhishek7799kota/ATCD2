@@ -2,183 +2,213 @@
   "quiz": [
     {
       "id": 1,
-      "question": "Runtime environment is responsible for:",
-      "options": ["Program execution support", "Compilation only", "Linking only", "Parsing only"],
-      "answer": "Program execution support"
+      "question": "An Applet is a:",
+      "options": ["Standalone Java Program", "Java Program Embedded in a Web Page", "Database Driver", "Operating System"],
+      "answer": "Java Program Embedded in a Web Page"
     },
     {
       "id": 2,
-      "question": "Runtime environment mainly manages:",
-      "options": ["Memory and control flow", "Syntax analysis", "Lexical analysis", "Parsing"],
-      "answer": "Memory and control flow"
+      "question": "Panel is a:",
+      "options": ["Container Class", "Database Class", "Thread Class", "Exception Class"],
+      "answer": "Container Class"
     },
     {
       "id": 3,
-      "question": "Activation record is also called:",
-      "options": ["Parse tree", "Stack frame", "Token", "Lexeme"],
-      "answer": "Stack frame"
+      "question": "Which package contains the Panel class?",
+      "options": ["java.sql", "java.awt", "java.io", "java.net"],
+      "answer": "java.awt"
     },
     {
       "id": 4,
-      "question": "Activation records are stored in:",
-      "options": ["Heap", "Stack", "Register only", "Cache"],
-      "answer": "Stack"
+      "question": "An Applet extends:",
+      "options": ["Frame", "Panel", "Applet", "Component"],
+      "answer": "Applet"
     },
     {
       "id": 5,
-      "question": "Stack allocation is suitable for:",
-      "options": ["Static memory allocation", "Procedure calls", "Dynamic graphs", "Linked lists only"],
-      "answer": "Procedure calls"
+      "question": "Which tag is used to embed an Applet in HTML?",
+      "options": ["<java>", "<object>", "<applet>", "<embed>"],
+      "answer": "<applet>"
     },
     {
       "id": 6,
-      "question": "Heap allocation supports:",
-      "options": ["Dynamic memory allocation", "Static variables only", "Local variables only", "Parsing"],
-      "answer": "Dynamic memory allocation"
+      "question": "Which of the following is true about a Java Application?",
+      "options": ["Runs inside browser", "Has main() method", "Cannot access files", "Extends Applet"],
+      "answer": "Has main() method"
     },
     {
       "id": 7,
-      "question": "Memory allocated from heap remains until:",
-      "options": ["Function returns", "Explicit deallocation", "Parsing completes", "Compilation ends"],
-      "answer": "Explicit deallocation"
+      "question": "Which of the following is true about an Applet?",
+      "options": ["Has main() method", "Runs independently", "Runs inside browser or applet viewer", "Uses command line only"],
+      "answer": "Runs inside browser or applet viewer"
     },
     {
       "id": 8,
-      "question": "Local variables are usually stored in:",
-      "options": ["Heap", "Stack", "ROM", "Disk"],
-      "answer": "Stack"
+      "question": "An Application starts execution from:",
+      "options": ["start()", "run()", "main()", "init()"],
+      "answer": "main()"
     },
     {
       "id": 9,
-      "question": "Dynamic data structures are generally stored in:",
-      "options": ["Stack", "Heap", "Register", "Cache"],
-      "answer": "Heap"
+      "question": "Applet parameters are specified using:",
+      "options": ["<param>", "<parameter>", "<arg>", "<value>"],
+      "answer": "<param>"
     },
     {
       "id": 10,
-      "question": "Procedure calls use:",
-      "options": ["Activation records", "Tokens", "Parse trees", "Lexemes"],
-      "answer": "Activation records"
+      "question": "Which method is used to read parameters in an Applet?",
+      "options": ["getData()", "readParam()", "getParameter()", "fetchParameter()"],
+      "answer": "getParameter()"
     },
     {
       "id": 11,
-      "question": "Return address is stored in:",
-      "options": ["Activation record", "Symbol table", "Parse tree", "Heap only"],
-      "answer": "Activation record"
+      "question": "An Applet can be created through inheritance by extending:",
+      "options": ["Thread", "Applet", "Frame", "Panel"],
+      "answer": "Applet"
     },
     {
       "id": 12,
-      "question": "Stack allocation follows:",
-      "options": ["FIFO", "LIFO", "Random", "Circular"],
-      "answer": "LIFO"
+      "question": "The first method invoked in Applet life cycle is:",
+      "options": ["start()", "paint()", "init()", "destroy()"],
+      "answer": "init()"
     },
     {
       "id": 13,
-      "question": "Heap allocation follows:",
-      "options": ["LIFO strictly", "FIFO strictly", "No fixed order", "Circular order"],
-      "answer": "No fixed order"
+      "question": "Which Applet method is called after init()?",
+      "options": ["paint()", "destroy()", "start()", "stop()"],
+      "answer": "start()"
     },
     {
       "id": 14,
-      "question": "Static allocation is done:",
-      "options": ["During execution", "At compile time", "During linking", "During loading only"],
-      "answer": "At compile time"
+      "question": "Which method is used to draw output in an Applet?",
+      "options": ["display()", "show()", "paint()", "draw()"],
+      "answer": "paint()"
     },
     {
       "id": 15,
-      "question": "Static variables are stored in:",
-      "options": ["Static area", "Heap", "Stack only", "Cache"],
-      "answer": "Static area"
+      "question": "Which method is called when an Applet becomes inactive?",
+      "options": ["destroy()", "stop()", "paint()", "run()"],
+      "answer": "stop()"
     },
     {
       "id": 16,
-      "question": "Runtime stack grows and shrinks during:",
-      "options": ["Program execution", "Compilation", "Parsing", "Linking"],
-      "answer": "Program execution"
+      "question": "Which Applet method is called before the Applet is removed from memory?",
+      "options": ["paint()", "stop()", "destroy()", "run()"],
+      "answer": "destroy()"
     },
     {
       "id": 17,
-      "question": "Which allocation supports recursion?",
-      "options": ["Static allocation", "Stack allocation", "Register allocation", "ROM allocation"],
-      "answer": "Stack allocation"
+      "question": "JDBC stands for:",
+      "options": ["Java Database Connectivity", "Java Data Base Compiler", "Java Dynamic Binding Connection", "Java Driver Based Connectivity"],
+      "answer": "Java Database Connectivity"
     },
     {
       "id": 18,
-      "question": "Heap allocation is required for:",
-      "options": ["Dynamic arrays", "Constants only", "Tokens only", "Grammar rules"],
-      "answer": "Dynamic arrays"
+      "question": "How many types of JDBC drivers are available?",
+      "options": ["2", "3", "4", "5"],
+      "answer": "4"
     },
     {
       "id": 19,
-      "question": "Runtime environment handles:",
-      "options": ["Parameter passing", "Lexical analysis", "Parsing", "Code optimization only"],
-      "answer": "Parameter passing"
+      "question": "Type-1 JDBC driver is called:",
+      "options": ["Native Driver", "JDBC-ODBC Bridge Driver", "Network Protocol Driver", "Thin Driver"],
+      "answer": "JDBC-ODBC Bridge Driver"
     },
     {
       "id": 20,
-      "question": "Activation record contains:",
-      "options": ["Return address", "Local variables", "Parameters", "All of the above"],
-      "answer": "All of the above"
+      "question": "Type-4 JDBC driver is called:",
+      "options": ["Thin Driver", "Native Driver", "Bridge Driver", "ODBC Driver"],
+      "answer": "Thin Driver"
     },
     {
       "id": 21,
-      "question": "Stack pointer points to:",
-      "options": ["Top of stack", "Bottom of heap", "Code segment", "Data segment"],
-      "answer": "Top of stack"
+      "question": "Which class is used to establish a database connection?",
+      "options": ["Connection", "DriverManager", "Statement", "ResultSet"],
+      "answer": "DriverManager"
     },
     {
       "id": 22,
-      "question": "Heap memory is used for:",
-      "options": ["Dynamic objects", "Parse trees only", "Tokens only", "Registers"],
-      "answer": "Dynamic objects"
+      "question": "Which method establishes a JDBC connection?",
+      "options": ["connect()", "getConnection()", "openConnection()", "createConnection()"],
+      "answer": "getConnection()"
     },
     {
       "id": 23,
-      "question": "Memory allocation during execution is called:",
-      "options": ["Dynamic allocation", "Static allocation", "Lexical allocation", "Syntax allocation"],
-      "answer": "Dynamic allocation"
+      "question": "Which interface represents a database connection?",
+      "options": ["Statement", "Connection", "Driver", "ResultSet"],
+      "answer": "Connection"
     },
     {
       "id": 24,
-      "question": "Recursion requires:",
-      "options": ["Heap only", "Stack allocation", "Static allocation only", "Cache memory"],
-      "answer": "Stack allocation"
+      "question": "Which object is used to execute SQL queries?",
+      "options": ["Connection", "Driver", "Statement", "ResultSet"],
+      "answer": "Statement"
     },
     {
       "id": 25,
-      "question": "Runtime environment is part of:",
-      "options": ["Program execution system", "Lexical analyzer", "Parser", "Grammar"],
-      "answer": "Program execution system"
+      "question": "Which method executes a SELECT query?",
+      "options": ["executeUpdate()", "execute()", "executeQuery()", "runQuery()"],
+      "answer": "executeQuery()"
     },
     {
       "id": 26,
-      "question": "Which memory area stores activation records?",
-      "options": ["Stack", "Heap", "Code segment", "Static area"],
-      "answer": "Stack"
+      "question": "Which method executes INSERT, UPDATE, and DELETE statements?",
+      "options": ["execute()", "executeUpdate()", "executeQuery()", "runUpdate()"],
+      "answer": "executeUpdate()"
     },
     {
       "id": 27,
-      "question": "Which allocation is fastest?",
-      "options": ["Stack allocation", "Heap allocation", "Disk allocation", "Dynamic allocation"],
-      "answer": "Stack allocation"
+      "question": "The result of a SELECT query is stored in:",
+      "options": ["Connection", "Statement", "ResultSet", "Driver"],
+      "answer": "ResultSet"
     },
     {
       "id": 28,
-      "question": "Heap memory fragmentation occurs in:",
-      "options": ["Static allocation", "Heap allocation", "Stack allocation", "Register allocation"],
-      "answer": "Heap allocation"
+      "question": "The first step in JDBC is:",
+      "options": ["Execute Query", "Load Driver", "Close Connection", "Create Statement"],
+      "answer": "Load Driver"
     },
     {
       "id": 29,
-      "question": "Runtime support includes:",
-      "options": ["Memory management", "Procedure linkage", "Parameter passing", "All of the above"],
-      "answer": "All of the above"
+      "question": "Which is NOT a JDBC step?",
+      "options": ["Load Driver", "Establish Connection", "Execute Query", "Compile Database"],
+      "answer": "Compile Database"
     },
     {
       "id": 30,
-      "question": "The runtime environment is created for:",
-      "options": ["Executing the program", "Parsing the program", "Scanning the program", "Optimizing the program"],
-      "answer": "Executing the program"
+      "question": "Menu class belongs to package:",
+      "options": ["java.sql", "java.awt", "java.io", "java.util"],
+      "answer": "java.awt"
+    },
+    {
+      "id": 31,
+      "question": "A Menu is added to:",
+      "options": ["Panel", "MenuBar", "Button", "Canvas"],
+      "answer": "MenuBar"
+    },
+    {
+      "id": 32,
+      "question": "MenuItem represents:",
+      "options": ["A menu option", "A frame", "A listener", "A dialog box"],
+      "answer": "A menu option"
+    },
+    {
+      "id": 33,
+      "question": "A MenuBar can contain:",
+      "options": ["Only one menu", "Multiple menus", "Only buttons", "Only labels"],
+      "answer": "Multiple menus"
+    },
+    {
+      "id": 34,
+      "question": "Which method is used to add a MenuItem to a Menu?",
+      "options": ["insert()", "append()", "add()", "put()"],
+      "answer": "add()"
+    },
+    {
+      "id": 35,
+      "question": "The JDBC API is available in package:",
+      "options": ["java.awt", "java.sql", "java.net", "java.io"],
+      "answer": "java.sql"
     }
   ]
 }
